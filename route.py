@@ -4,7 +4,7 @@ import qrcode
 from flask import request
 import time
 app=Flask(__name__)
-print('请输入端口号\n')
+print('请输入端口号')
 p=input()
 @app.route('/png.html',methods=['GET','POST'])
 def png():
